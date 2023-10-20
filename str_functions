@@ -1,0 +1,24 @@
+Strings in Python have a variety of built-in methods that you can use to manipulate and work with string data. Here's a list of some common string methods and functions:
+
+1. `len()`: Returns the length (number of characters) of the string.
+2. `str.capitalize()`: Returns a copy of the string with the first character capitalized.
+3. `str.upper()`: Returns a copy of the string in uppercase.
+4. `str.lower()`: Returns a copy of the string in lowercase.
+5. `str.title()`: Returns a copy of the string with the first letter of each word capitalized.
+6. `str.strip()`: Removes leading and trailing whitespace from the string.
+7. `str.replace(old, new)`: Replaces all occurrences of the 'old' substring with the 'new' substring.
+8. `str.split()`: Splits the string into a list of substrings based on a delimiter (default is space).
+9. `str.join(iterable)`: Joins the elements of an iterable (e.g., a list) into a single string using the string as a delimiter.
+10. `str.find(substring)`: Returns the index of the first occurrence of the 'substring' in the string, or -1 if not found.
+11. `str.startswith(prefix)`: Checks if the string starts with the 'prefix' and returns a Boolean value.
+12. `str.endswith(suffix)`: Checks if the string ends with the 'suffix' and returns a Boolean value.
+13. `str.isnumeric()`: Returns `True` if all characters in the string are numeric.
+14. `str.isalpha()`: Returns `True` if all characters in the string are alphabetic.
+15. `str.isalnum()`: Returns `True` if all characters in the string are alphanumeric (letters and numbers).
+16. `str.isupper()`: Returns `True` if all characters in the string are uppercase.
+17. `str.islower()`: Returns `True` if all characters in the string are lowercase.
+18. `str.count(substring)`: Returns the number of non-overlapping occurrences of 'substring' in the string.
+19. `str.startswith(prefix, start, end)`: Checks if the string starts with 'prefix' within a specified range.
+20. `str.endswith(suffix, start, end)`: Checks if the string ends with 'suffix' within a specified range.
+
+These are just some of the most commonly used string methods in Python. You can explore more string methods and their usage in the Python documentation.
